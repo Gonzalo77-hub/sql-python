@@ -1,3 +1,5 @@
+USE World;
+
 SELECT a.name, b.language, b.percentage
 FROM countries a JOIN languages b ON a.id = b.country_id
 WHERE b.language = "Slovene"
